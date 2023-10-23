@@ -1,8 +1,8 @@
 clear all
 clc
-x = rand(10,6)
+x = rand(10,4)
 
 for i=1:6
-    subplot(3,2,i)
-    pie3(x(:,i)) #pasta grafiği
+    subplot(2,2,i)
+    boxplot(x(:,2))
 end
