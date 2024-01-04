@@ -1,0 +1,9 @@
+data
+subplot(2,2,1)
+hist(data.X3)
+subplot(2,2,2)
+boxplot(data.X3)
+subplot(2,2,3)
+pie3(data.X3,data.Etiket)
+subplot(2,2,4)
+scatter(data.X3,data.Y)
